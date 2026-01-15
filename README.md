@@ -13,4 +13,4 @@ It includes client-side validation, error handling, and a progress indicator.
 ## 🛠️ Technologies Used
 - HTML
 - CSS
-- JavaScript (Vanilla JS)
+- JavaScript 
