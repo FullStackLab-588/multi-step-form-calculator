@@ -1,0 +1,1 @@
+console.log("Jhagir Mughal my first code");

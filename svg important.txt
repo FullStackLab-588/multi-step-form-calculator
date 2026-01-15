@@ -1,0 +1,7 @@
+https://www.blobmaker.app/ 
+
+font:
+https://fonts.google.com
+Font Awesome.com   // icons
+cdnjs.com
+cssgradient.io

@@ -1,0 +1,9 @@
+today, I began learning CSS Grid, understanding how it provides full two-dimensional layout control beyond what Flexbox offers. I explored grid terminology like rows, columns, tracks, and gaps, and practiced defining grids using grid-template-columns, grid-template-rows, and the repeat() function. I also learned how minmax() helps create responsive, flexible grids. This marks my transition from Flexbox into modern, powerful layout systems before moving toward advanced grid challenges.
+
+
+
+
+
+Today, I began learning CSS Grid, gaining an understanding of how it offers full two-dimensional layout control, allowing me to manage rows and columns simultaneously—something Flexbox alone cannot do.
+I explored Grid terminology such as rows, columns, tracks, cells, and gaps, and practiced creating grid structures using grid-template-columns, grid-template-rows, and the repeat() function. I also learned how minmax() helps build responsive layouts that automatically adjust to screen size.
+Along with Grid, I completed a small task, creating a product card with a SALE badge using position: absolute, which helped me understand element stacking and positioning more deeply.

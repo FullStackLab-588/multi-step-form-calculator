@@ -1,0 +1,44 @@
+
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+
+  .card {
+    position: relative;
+    width: 300px;
+    padding: 20px;
+    margin: 30px;
+    border: 1px solid black;
+    background: white;
+    border-radius: 10px;
+  }
+
+  .card::after {
+    content: "SALE";
+    position: absolute;
+    top: -20px;
+    right: -35px;
+
+
+
+    background: #e02424;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 12px;
+  }
+ 
+ .outer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;    
+}
+
+
+
+  

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Multi-Step Form by Jhangir</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- progress bar -->
+      <div class="progress-cotainer">
+        <div class="progress-bar" id="progress"></div>
+        <div class="circle">1</div>
+        <div class="circle">2</div>
+        <div class="circle">3</div>
+      </div>
+      <form id="multiForm" class="form-container">
+        <!-- Step 1 -->
+        <div id="form1" class="form-step active">
+          <h2 class="main-heading">Personal Information</h2>
+          <label for="first-name">
+            First Name
+            <input type="text" id="first-name" placeholder="Enter First Name" />
+            <span class="error" id="firstNameError"></span>
+          </label>
+          <label for="last-name">
+            Last Name
+            <input type="text" id="last-name" placeholder="Enter Last Name" />
+            <span class="error" id="lastNameError"></span>
+          </label>
+          <div class="buttons">
+            <span></span>
+            <button type="button" id="next1">Next</button>
+          </div>
+        </div>
+
+        <!-- Step 2 -->
+        <div id="form2" class="form-step">
+          <h2 class="main-heading">Account Information</h2>
+          <label for="email">
+            Email
+            <input type="email" id="email" placeholder="Enter Email" />
+            <span class="error" id="emailError"></span>
+          </label>
+          <label for="password">
+            Password
+            <div class="password-wrapper">
+              <input
+                type="password"
+                id="password"
+                placeholder="Enter Password"
+              />
+              <span class="error" id="passwordError"></span>
+              <button type="button" id="togglePassword" class="toggle-password">
+                Show
+              </button>
+            </div>
+          </label>
+
+          <div class="buttons">
+            <button type="button" id="previous2">Previous</button>
+            <button type="button" id="next2">Next</button>
+          </div>
+        </div>
+
+        <!-- Step 3 -->
+        <div id="form3" class="form-step">
+          <h2 class="main-heading">Company Details</h2>
+          <label for="company">
+            Company Name
+            <input type="text" id="company" placeholder="Enter Company Name" />
+            <span class="error" id="companyError"></span>
+          </label>
+          <label for="designation">
+            Designation
+            <input
+              type="text"
+              id="designation"
+              placeholder="Enter Designation"
+            />
+            <span class="error" id="designationError"></span>
+          </label>
+          <div class="buttons">
+            <button type="button" id="previous3">Previous</button>
+
+            <button type="button" id="submit">Submit</button>
+          </div>
+        </div>
+      </form>
+      <!-- Result -->
+      <div id="result" class="result"></div>
+      <p class="Created-by">Created by Jhangir Mughal</p>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
