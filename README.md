@@ -21,4 +21,8 @@ Check out the live project here:
 - `style.css` – Styling for the form and animations  
 - `script.js` – JavaScript for form logic and step navigation
 
+## How to Use
+
+1. Clone the repository:
+   ```bash
    git clone https://github.com/FullStackLab-588/multi-step-registration-form.git
