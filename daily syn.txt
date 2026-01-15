@@ -1,5 +1,0 @@
-Today I learned how to create, style, and add elements dynamically using JavaScript DOM.
-I understood DOM traversal like parent, children, and sibling elements.
-I also practiced creating multiple elements and nesting parent-child divs.
-
-
