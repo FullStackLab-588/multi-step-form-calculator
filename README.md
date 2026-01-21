@@ -24,7 +24,7 @@ This project is a web application that combines a **multi-step registration form
 ### Technologies Used
 - HTML5
 - CSS3
-- JavaScript (Vanilla JS)
+- JavaScript
 
 ### How to Use
 1. Clone the repository:
