@@ -2,6 +2,8 @@
 
 **Created by:** Jhangir Mughal
 
+**Live Project:** [https://fullstacklab-588.github.io/multi-step-form-calculator/](https://fullstacklab-588.github.io/multi-step-form-calculator/)
+
 ## Overview
 This project is a web application that combines a **multi-step registration form** with a **simple calculator**. It is designed to be **interactive, user-friendly, and responsive**, making it suitable for learning and practical use in web development projects.
 
@@ -22,7 +24,7 @@ This project is a web application that combines a **multi-step registration form
 ### Technologies Used
 - HTML5
 - CSS3
-- JavaScript
+- JavaScript (Vanilla JS)
 
 ### How to Use
 1. Clone the repository:
