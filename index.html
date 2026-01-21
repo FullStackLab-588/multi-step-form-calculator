@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -12,117 +12,182 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
-    <title>Multi-Step Form by Jhangir</title>
+    <title>Multi Step Form & Calculator</title>
   </head>
+
   <body>
-    <div class="container">
-      <!-- progress bar -->
-      <div class="progress-cotainer">
-        <div class="progress-bar" id="progress"></div>
-        <div class="circle">1</div>
-        <div class="circle">2</div>
-        <div class="circle">3</div>
-      </div>
-      <form id="multiForm" class="form-container">
-        <!-- Step 1 -->
-        <div id="form1" class="form-step active">
-          <h2 class="main-heading">Personal Information</h2>
-          <label for="first-name">
-            First Name
-            <input
-              type="text"
-              name="first_name"
-              id="first-name"
-              placeholder="Enter First Name"
-            />
-            <span class="error" id="firstNameError"></span>
-          </label>
-          <label for="last-name">
-            Last Name
-            <input
-              type="text"
-              name="last_name"
-              id="last-name"
-              placeholder="Enter Last Name"
-            />
-            <span class="error" id="lastNameError"></span>
-          </label>
-          <div class="buttons">
-            <span></span>
-            <button type="button" id="next1">Next</button>
-          </div>
-        </div>
-
-        <!-- Step 2 -->
-        <div id="form2" class="form-step">
-          <h2 class="main-heading">Account Information</h2>
-          <label for="email">
-            Email
-            <input
-              type="email"
-              name="email"
-              id="email"
-              placeholder="Enter Email"
-            />
-            <span class="error" id="emailError"></span>
-          </label>
-          <label for="password">
-            Password
-            <div class="password-wrapper">
-              <input
-                type="password"
-                name="password"
-                id="password"
-                placeholder="Enter Password"
-              />
-              <span class="error" id="passwordError"></span>
-              <button type="button" id="togglePassword" class="toggle-password">
-                Show
-              </button>
-            </div>
-          </label>
-
-          <div class="buttons">
-            <button type="button" id="previous2">Previous</button>
-            <button type="button" id="next2">Next</button>
-          </div>
-        </div>
-
-        <!-- Step 3 -->
-        <div id="form3" class="form-step">
-          <h2 class="main-heading">Company Details</h2>
-          <label for="company">
-            Company Name
-            <input
-              type="text"
-              name="company"
-              id="company"
-              placeholder="Enter Company Name"
-            />
-            <span class="error" id="companyError"></span>
-          </label>
-          <label for="designation">
-            Designation
-            <input
-              type="text"
-              name="designation"
-              id="designation"
-              placeholder="Enter Designation"
-            />
-            <span class="error" id="designationError"></span>
-          </label>
-          <div class="buttons">
-            <button type="button" id="previous3">Previous</button>
-
-            <button type="button" id="submit">Submit</button>
-          </div>
-        </div>
-      </form>
-      <!-- Result -->
-      <div id="result" class="result"></div>
-      <p class="Created-by">Created by Jhangir Mughal</p>
+    <!-- top  buttons -->
+    <div class="top-switches">
+      <button id="btn-multi-step-Form">Multi Step Form</button>
+      <button id="btn-Calculator-open">Calculator</button>
     </div>
 
+    <div id="multiStepPage" class="page">
+      <div class="container">
+        <!-- progress bar -->
+        <div class="progress-cotainer">
+          <div class="progress-bar" id="progress"></div>
+          <div class="circle">1</div>
+          <div class="circle">2</div>
+          <div class="circle">3</div>
+        </div>
+        <form id="multiForm" class="form-container">
+          <!-- Step 1 -->
+          <div id="form1" class="form-step active">
+            <h2 class="main-heading">Personal Information</h2>
+            <label for="first-name">
+              First Name
+              <input
+                type="text"
+                name="first_name"
+                id="first-name"
+                placeholder="Enter First Name"
+              />
+              <span class="error" id="firstNameError"></span>
+            </label>
+            <label for="last-name">
+              Last Name
+              <input
+                type="text"
+                name="last_name"
+                id="last-name"
+                placeholder="Enter Last Name"
+              />
+              <span class="error" id="lastNameError"></span>
+            </label>
+            <div class="buttons">
+              <span></span>
+              <button type="button" id="next1">Next</button>
+            </div>
+          </div>
+
+          <!-- Step 2 -->
+          <div id="form2" class="form-step">
+            <h2 class="main-heading">Account Information</h2>
+            <label for="email">
+              Email
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Enter Email"
+              />
+              <span class="error" id="emailError"></span>
+            </label>
+            <label for="password">
+              Password
+              <div class="password-wrapper">
+                <input
+                  type="password"
+                  name="password"
+                  id="password"
+                  placeholder="Enter Password"
+                />
+                <span class="error" id="passwordError"></span>
+                <button
+                  type="button"
+                  id="togglePassword"
+                  class="toggle-password"
+                >
+                  Show
+                </button>
+              </div>
+            </label>
+
+            <div class="buttons">
+              <button type="button" id="previous2">Previous</button>
+              <button type="button" id="next2">Next</button>
+            </div>
+          </div>
+
+          <!-- Step 3 -->
+          <div id="form3" class="form-step">
+            <h2 class="main-heading">Company Details</h2>
+            <label for="company">
+              Company Name
+              <input
+                type="text"
+                name="company"
+                id="company"
+                placeholder="Enter Company Name"
+              />
+              <span class="error" id="companyError"></span>
+            </label>
+            <label for="designation">
+              Designation
+              <input
+                type="text"
+                name="designation"
+                id="designation"
+                placeholder="Enter Designation"
+              />
+              <span class="error" id="designationError"></span>
+            </label>
+            <div class="buttons">
+              <button type="button" id="previous3">Previous</button>
+
+              <button type="button" id="submit">Submit</button>
+            </div>
+          </div>
+        </form>
+        <!-- Result -->
+        <div id="result" class="result"></div>
+      </div>
+    </div>
+
+    <!-- calculator -->
+    <div id="calculatorPage" class="page">
+      <h1 class="main-heading">Simple Calculator</h1>
+
+      <div class="main-container">
+        <div class="calculator">
+          <input
+            type="text"
+            id="m-result-display"
+            placeholder="Enter expression"
+          />
+
+          <div class="buttons-cal">
+            <button class="btn-c btn-clear-1">Clear</button>
+            <button class="btn-c btn-obrc">(</button>
+            <button class="btn-c btn-cbrc">)</button>
+            <button class="btn-c btn-div">/</button>
+
+            <button class="btn-c btn-7">7</button>
+            <button class="btn-c btn-8">8</button>
+            <button class="btn-c btn-9">9</button>
+            <button class="btn-c btn-x">*</button>
+
+            <button class="btn-c btn-4">4</button>
+            <button class="btn-c btn-5">5</button>
+            <button class="btn-c btn-6">6</button>
+            <button class="btn-c btn-mins">−</button>
+
+            <button class="btn-c btn-1">1</button>
+            <button class="btn-c btn-2">2</button>
+            <button class="btn-c btn-3">3</button>
+            <button class="btn-c btn-plus">+</button>
+
+            <button class="btn-c btn-0">0</button>
+            <button class="btn-c btn-dot">.</button>
+            <button class="btn-c btn-mean">Mean</button>
+
+            <button class="btn-c btn-pre">%</button>
+            <button class="btn-c btn-exit">Exit</button>
+            <button class="btn-c btn-cross-back">Cross</button>
+            <button class="btn-c btn-comma">,</button>
+            <button class="btn-c btn-equal">=</button>
+          </div>
+        </div>
+
+        <div class="history">
+          <h2 class="history-heding">Calculation History</h2>
+          <ul id="historyList"></ul>
+          <button id="clearHistory">Clear History</button>
+        </div>
+      </div>
+    </div>
+    <p class="Created-by">Created by Jhangir Mughal</p>
     <script src="script.js"></script>
   </body>
 </html>
