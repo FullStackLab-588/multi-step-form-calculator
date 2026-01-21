@@ -1,28 +1,30 @@
-# Multi-Step Registration Form
+# Multi-Step Form & Calculator
 
-This is a responsive **multi-step registration form** built with HTML, CSS, and JavaScript. It demonstrates a clean, interactive form UI with smooth transitions between steps, client-side validation, and a user-friendly experience.
+**Created by:** Jhangir Mughal
 
-## Features
+## Overview
+This project is a web application that combines a **multi-step registration form** with a **simple calculator**. It is designed to be **interactive, user-friendly, and responsive**, making it suitable for learning and practical use in web development projects.
 
-- Multi-step form navigation
-- Smooth animations and transitions
-- Responsive layout for desktop and mobile
-- Client-side form validation
-- Lightweight and easy to customize
+### Features
+- **Multi-Step Form:**
+  - Step 1: Personal Information (First Name, Last Name)
+  - Step 2: Account Information (Email, Password with Show/Hide toggle)
+  - Step 3: Company Details (Company Name, Designation)
+  - Progress bar and step indicators
+  - Form validation with error messages
+- **Calculator:**
+  - Basic arithmetic operations (`+`, `-`, `*`, `/`)
+  - Parentheses for complex expressions
+  - Mean, percentage, and history of calculations
+  - Clear and reset buttons
+- Responsive design and interactive UI
 
-## Live Demo
+### Technologies Used
+- HTML5
+- CSS3
+- JavaScript
 
-Check out the live project here:  
-[Multi-Step Registration Form](https://fullstacklab-588.github.io/multi-step-registration-form/)
-
-## Files Included
-
-- `index.html` – The main HTML file  
-- `style.css` – Styling for the form and animations  
-- `script.js` – JavaScript for form logic and step navigation
-
-## How to Use
-
+### How to Use
 1. Clone the repository:
    ```bash
-   git clone https://github.com/FullStackLab-588/multi-step-registration-form.git
+   git clone https://github.com/your-username/multi-step-form-calculator.git
