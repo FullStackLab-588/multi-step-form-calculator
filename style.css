@@ -362,5 +362,6 @@ button:active {
 @media (max-width: 992px) {
   .main-container {
     flex-direction: column;
+    justify-content: center;
   }
 }
