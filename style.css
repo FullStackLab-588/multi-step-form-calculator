@@ -359,9 +359,15 @@ button:active {
   background: var(--color-primary);
   color: var(--color-bg);
 }
-@media (max-width: 768px) {
+@media (max-width: 992px) {
   .main-container {
     flex-direction: column;
-    align-item: center;
+    align-items: center;
+  }
+  .calculator{
+    width: 350px;
+  }
+  .history{
+    width: 350px;
   }
 }
